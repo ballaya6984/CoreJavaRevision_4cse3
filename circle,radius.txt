@@ -1,0 +1,25 @@
+
+class circle {
+    private  int X=2,Y=3;
+    private double radius=3.5;
+    private void circumference() {
+    	System.out.println("circumfrence is "+2*3.141*radius);
+    }
+    public void area() {
+    	System.out.println("area is "+3.141*radius*radius);
+    }
+	public void printCenter()  {
+		System.out.println("Center coordinate is ("+X+","+Y+")");
+		// TODO Auto-generated method stub
+
+	}
+
+}
+public class Test {
+	public static void main(String[] args) {
+		circle acircle=new circle();
+		circle bcircle=new circle();
+		bcircle.area();
+		acircle.printCenter();
+	}
+}
